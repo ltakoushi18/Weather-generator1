@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f9f7fe;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+form {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin: 0;
+}
+h1 {
+  font-weight: 800;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 12px;
+}
+
+input[type="search"] {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  background-color: #f9f7fe;
+  flex: 1;
+}
+
+input[type="submit"] {
+  padding: 15px 20px;
+  margin-right: 20px;
+  background: #885df1;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  line-height: 1;
+}
+
+footer p {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.weather.now {
+  display: flex;
+  justify-content: space-between;
+}
+.paris-now {
+  margin-left: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.weather-facts {
+  opacity: 0.5;
+}
+.weather-figures {
+  color: rgba(246, 82, 130);
+  font-weight: 700;
+}
+.weather-degrees {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 150px;
+  left: 30px;
+  padding: 20px;
+  margin: 30px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.weather-degrees-icon {
+  position: relative;
+  top: 18px;
+  font-size: 27px;
+}
+.weather-degrees-number {
+  font-size: 60px;
+}
+.weather-degrees-unit {
+  font-size: 30px;
+  position: relative;
+  top: 6px;
+}
+
+.weather-forecast {
+}

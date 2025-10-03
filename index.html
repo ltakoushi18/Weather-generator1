@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap"
+      rel="stylesheet"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+<link rel="stylesheet" href="style.css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form id="main-city">
+          <label for="city"></label>
+          <input
+            type="search"
+            id="city"
+            placeholder="Enter a city.."
+            required
+          />
+          <input type="submit" value="Search" />
+        </form>
+  
+          <h1 id="heading">Paris</h1>
+        
+      </header>
+      <main>
+        <div class="weather-now">
+          <div class="paris-now">
+            <p>
+              <span class="weather-facts" id="date-time"
+                >Saturday 15:32</span>, <span class= "weather-facts">moderate rain</span>
+                <br />
+                <span class="weather-facts">Humidity</span
+              >
+              <span class="weather-figures">87%</span>
+              <span class="weather-facts"> , Wind: </span>
+              <span class="weather-figures">7.2km/h</span>
+            </p>
+          </div>
+           <div class="weather-degrees">
+            <span class="weather-degrees-icon">☀️</span>
+              <span class="weather-degrees-number" id="today-celsius">14</span>
+                <span class="weather-degrees-unit">°C</span>
+        </div>
+        <div class="weather-forecast">
+          <ul>
+            <li>
+              Sun ⛅
+              <br />
+              <strong>14°C</strong> - 18°C
+            </li>
+            <li>
+              Mon ⛅
+              <br />
+              <strong>14°C</strong> - 18°C
+            </li>
+            <li>
+              Tues ⛅
+              <br />
+              <strong>14°C</strong> - 18°C
+            </li>
+            <li>
+              Wed ⛅
+              <br />
+              <strong>14°C</strong> - 18°C
+            </li>
+            <li>
+              Thu ⛅
+              <br />
+              <strong>14°C</strong> - 18°C
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://shecodes.io" target="_blank">Layla Takoushi</a> and
+          is on <a href="https://shecodes.io" target="_blank">Github</a> and
+          hosted on <a href="https://shecodes.io" target="_blank">Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="style.css/script.js"></script>
+  </body>
+</html>
